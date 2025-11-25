@@ -1,0 +1,36 @@
+# Hedge Fund Core - Python Dependencies
+
+# Data Processing and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Technical Analysis Library (more stable than pandas-ta)
+ta>=0.10.2
+
+# Exchange and Market Data APIs
+ccxt>=4.0.0
+requests>=2.31.0
+
+# Machine Learning and AI (for future expansion)
+# Uncomment when implementing ML models
+# torch>=2.0.0
+# tensorflow>=2.13.0
+# scikit-learn>=1.3.0
+# xgboost>=1.7.0
+
+# Time Series Databases (for Platinum tier)
+# Uncomment when integrating with TimescaleDB/InfluxDB
+# psycopg2-binary>=2.9.0
+# influxdb-client>=1.36.0
+
+# Monitoring and Logging
+# prometheus-client>=0.17.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code Quality
+black>=23.7.0
+flake8>=6.1.0
+mypy>=1.5.0
