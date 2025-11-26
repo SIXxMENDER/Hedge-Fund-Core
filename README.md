@@ -6,78 +6,57 @@
 
 ## 🎯 Executive Summary
 
+**"Partnering with Psiquis-X gives you a grandmaster chess player with a supercomputer for an advisor."**
+
 In today's fast-paced financial markets, competitive advantage no longer resides solely in human intuition or cold computational logic. **It resides in their fusion**.
 
 This repository represents a **next-generation investment architecture**: a hybrid system that synergistically integrates the deep expertise of a strategist in investments and behavioral psychology with the power of **Psiquis-X**, an advanced Artificial Intelligence engine.
 
-This is not simply a collection of scripts; it is a **superior investment architecture**, designed for institutional operations, family offices, and high-net-worth traders seeking exceptional and sustainable results.
+**🎥 [WATCH EVIDENCE: System Demonstration](https://youtu.be/ea37kSU59y0)**
 
 ---
 
-## 🧠 Our Methodology: The 70/30 Paradigm
+## 🧠 The 70/30 Paradigm: A Superior Architecture
 
-Our approach breaks with traditional models. We operate under a proprietary **70/30** methodology that optimizes decision-making and execution, generating an asymmetric market advantage.
+We do not sell simple tools; we offer a **superior decision-making and execution architecture**. Our proprietary **70/30 Framework™** optimizes decision-making to generate a sustainable, asymmetric market advantage.
 
-### **[ 70% ] AI Quantitative Execution and Analysis (Psiquis-X)**
-
+### **[ 70% ] AI Quantitative Execution (Psiquis-X)**
 The Psiquis-X engine handles the heavy lifting with superhuman precision and speed:
+- **Massive Data Analysis:** Processing terabytes of real-time market data to identify patterns invisible to the human eye.
+- **Rigorous Backtesting:** Validating thousands of scenarios to optimize strategies under any market condition.
+- **Algorithmic Execution:** Operations executed in milliseconds, 24/7, without emotional biases like fear or greed.
 
-- **Massive Data Analysis:** Processing terabytes of real-time market data to identify patterns, correlations, and anomalies invisible to the human eye.
-- **Rigorous Backtesting:** Simulation of thousands of scenarios to validate and optimize strategies under any market condition.
-- **Algorithmic Execution:** Operations executed in milliseconds, without emotional biases like fear or greed.
-- **Automated Risk Management:** 24/7 monitoring and instant application of predefined risk protocols.
+### **[ 30% ] Expert Human Strategy**
+The human layer provides the critical context and wisdom no AI can replicate:
+- **Investment Thesis:** Establishing the fundamental "why" based on macroeconomic principles and behavioral psychology.
+- **Qualitative Interpretation:** Navigating "black swan" events and regulatory shifts.
+- **Strategic Governance:** Ensuring the AI operates within ethical and strategic parameters.
 
-### **[ 30% ] Expert Human Strategy and Supervision**
-
-The human layer provides context, wisdom, and strategic direction that no AI can replicate alone:
-
-- **Investment Thesis Definition:** We establish the fundamental "why" behind each strategy, based on macroeconomic principles and behavioral psychology.
-- **Qualitative Interpretation:** Analysis of "black swan" events, regulatory paradigm shifts, and market sentiment nuances that pure data doesn't capture.
-- **Ethical and Strategic Supervision:** Ensuring the AI operates within defined parameters, adjusting the overall strategy and making critical decisions in moments of high uncertainty.
-
-**The result is a virtuous cycle:** Human strategy guides AI, AI validates and executes the strategy with unmatched efficiency, and the resulting data refines the next human strategic decision.
+**The Result:** A virtuous cycle where human strategy guides AI, and AI validates and executes with unmatched efficiency.
 
 ---
 
 ## 📁 Repository Structure
 
-This repository is organized into three levels of complexity, each representing a key component of our trading architecture:
+This repository is organized into tiered levels of complexity, showcasing our "Ladder of Engagement" for institutional clients:
 
-### **01_Catalyst_Data_Engine** 📊 (Silver Tier)
+### **01_Silver_Arbitrage_Bot** 📉 (Silver Tier)
 
-**Critical Task Accelerator**
+**The Arbitrage Architect**
 
-Market data ingestion and processing module. This is the fundamental engine that connects with exchanges (Binance, Poloniex) and downloads real-time OHLCV data, calculating key technical indicators (RSI, MACD) for quantitative analysis.
+A specialized bot designed to exploit price inefficiencies across different markets. It operates with speed and precision to capture small margins that accumulate into significant alpha.
 
-- **Main file:** `data_loader.py`
-- **Use cases:** Automation of historical data download, technical indicator calculation, monitoring of multiple trading pairs.
-- **Technologies:** Python, ccxt, pandas, pandas-ta
+- **Key Features:** Real-time opportunity detection, automated execution, latency optimization.
+- **Value Proposition:** **Strategic Beachhead.** A low-risk entry point that demonstrates the power of automated execution by generating consistent, low-risk returns from market inefficiencies.
 
-> **Value proposition:** Eliminates costly operational bottlenecks. A surgical tool that automates critical tasks, freeing the team to focus on strategy and reducing human error risk to zero.
+### **02_Gold_FinOps_Pipeline** 💰 (Gold Tier)
 
-### **02_Sentinel_Execution_Bot** 🎯 (Gold Tier)
+**The Financial Operations Backbone**
 
-**Algorithmic Execution Agent**
+The backbone of the investment infrastructure. This pipeline ensures data integrity, automates financial reporting, and streamlines the operational workflow of the fund.
 
-Autonomous trading bot implementing moving average crossover strategies with integrated risk management. Operates 24/7 executing simulated orders with automatic stop-loss and detailed operation logging.
-
-- **Main file:** `sniper_bot.py`
-- **Use cases:** Automated execution of trend strategies, real-time risk management, unattended operations.
-- **Technologies:** Python, requests, pandas, numpy
-
-> **Value proposition:** Converts your investment strategy into an autonomous, disciplined, tireless agent. Executes market theses with millisecond precision, 24/7, without fear or greed.
-
-### **03_Nexus_Architecture** 🏗️ (Platinum Tier)
-
-**AI Quantitative Engine Design and Implementation**
-
-Complete technical architecture for an Autonomous Hedge Fund. Includes the macro system vision: from multi-source data ingestion, AI processing (LSTM, Transformers, Reinforcement Learning), to order execution and human supervision.
-
-- **Main file:** `architecture.md`
-- **Components:** Data platform (Kafka, Data Lake), AI core (SageMaker, MLflow), Execution and operations, Human supervision
-- **Technologies:** AWS, Kubernetes, Apache Spark, TimescaleDB, Python/Go/Rust
-
-> **Value proposition:** The keys to a next-generation investment engine. A complete architecture that integrates human strategy with algorithmic execution, positioning at the market forefront with proprietary infrastructure to generate alpha sustainably.
+- **Key Features:** Automated ETL (Extract, Transform, Load) processes, real-time P&L tracking, regulatory compliance reporting.
+- **Value Proposition:** **Operational Excellence.** Reduces overhead and ensures that high-stakes decisions are based on accurate, up-to-the-second financial data.
 
 ---
 
@@ -103,22 +82,16 @@ pip install -r requirements.txt
 
 ### Execution
 
-**Silver Level - Data Engine:**
+**Silver Level - Arbitrage Bot:**
 ```bash
-cd 01_Catalyst_Data_Engine
-python data_loader.py
+cd 01_Silver_Arbitrage_Bot
+python main.py
 ```
 
-**Gold Level - Trading Bot:**
+**Gold Level - FinOps Pipeline:**
 ```bash
-cd 02_Sentinel_Execution_Bot
-python sniper_bot.py
-```
-
-**Platinum Level - Architecture:**
-```bash
-cd 03_Nexus_Architecture
-# Review architecture.md for complete system design
+cd 02_Gold_FinOps_Pipeline
+python etl_pipeline.py
 ```
 
 ---

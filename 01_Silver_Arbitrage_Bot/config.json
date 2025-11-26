@@ -1,0 +1,13 @@
+{
+    "exchanges": [
+        "binance",
+        "kraken"
+    ],
+    "pairs": [
+        "BTC/USDT",
+        "ETH/USDT"
+    ],
+    "min_spread_pct": 0.5,
+    "trade_amount_usdt": 1000,
+    "dry_run": true
+}
