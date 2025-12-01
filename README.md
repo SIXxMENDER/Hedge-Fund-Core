@@ -15,6 +15,7 @@ This repository represents the **Psiquis-X Ecosystem**: a next-generation invest
 **🎥 WATCH EVIDENCE:**
 - **[Demo 1: System Overview](https://www.youtube.com/watch?v=4LSrEIE3ZHo)**
 - **[Demo 2: Execution & Results](https://www.youtube.com/watch?v=seWcusMQFn8)**
+- **[Demo 3: Live Alpha Scanner](https://www.youtube.com/watch?v=M3xOHYvW3RU)**
 
 ---
 
@@ -69,6 +70,15 @@ The crown jewel of the Psiquis architecture. Genesis is a self-correcting, self-
 - **Key Features:** Dynamic agent generation, autonomous self-correction (runtime code patching), hierarchical task delegation.
 - **Value Proposition:** **Infinite Scalability.** An AI workforce that adapts, heals, and grows without constant human intervention, delivering unprecedented operational resilience.
 
+### **04_Psiquis_Live_Alpha** ⚡ (Lab Tier)
+
+**The Real-Time Scanner (Hacker UI)**
+
+A lightweight, terminal-based HFT scanner designed for real-time demonstration. It connects directly to live markets to visualize order book latency and potential arbitrage opportunities in a "Hacker UI" format.
+
+- **Key Features:** Async I/O core, real-time weighted price calculation, visual latency monitoring.
+- **Value Proposition:** **Immediate Visibility.** A tangible, real-time window into the market's pulse, demonstrating the speed and connectivity of the Psiquis engine.
+
 ---
 
 ## 🚀 Quick Start
@@ -109,6 +119,12 @@ python etl_pipeline.py
 ```bash
 cd 03_Psiquis_Genesis_Framework
 python main.py --task "Your high-level objective"
+```
+
+**Lab Level - Live Alpha Scanner:**
+```bash
+cd 04_Psiquis_Live_Alpha
+python main.py --simulate
 ```
 
 ---
