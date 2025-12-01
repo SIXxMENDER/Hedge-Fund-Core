@@ -1,2 +1,5 @@
 ccxt
 pandas
+openai
+anthropic
+python-dotenv

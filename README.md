@@ -10,9 +10,11 @@
 
 In today's fast-paced financial markets, competitive advantage no longer resides solely in human intuition or cold computational logic. **It resides in their fusion**.
 
-This repository represents a **next-generation investment architecture**: a hybrid system that synergistically integrates the deep expertise of a strategist in investments and behavioral psychology with the power of **Psiquis-X**, an advanced Artificial Intelligence engine.
+This repository represents the **Psiquis-X Ecosystem**: a next-generation investment architecture that synergistically integrates the deep expertise of a strategist with the power of an advanced Artificial Intelligence engine.
 
-**🎥 [WATCH EVIDENCE: System Demonstration](https://youtu.be/ea37kSU59y0)**
+**🎥 WATCH EVIDENCE:**
+- **[Demo 1: System Overview](https://www.youtube.com/watch?v=4LSrEIE3ZHo)**
+- **[Demo 2: Execution & Results](https://www.youtube.com/watch?v=seWcusMQFn8)**
 
 ---
 
@@ -40,7 +42,7 @@ The human layer provides the critical context and wisdom no AI can replicate:
 
 This repository is organized into tiered levels of complexity, showcasing our "Ladder of Engagement" for institutional clients:
 
-### **01_Silver_Arbitrage_Bot** 📉 (Silver Tier)
+### **01_Psiquis_Quant_Engine** 📉 (Silver Tier)
 
 **The Arbitrage Architect**
 
@@ -49,7 +51,7 @@ A specialized bot designed to exploit price inefficiencies across different mark
 - **Key Features:** Real-time opportunity detection, automated execution, latency optimization.
 - **Value Proposition:** **Strategic Beachhead.** A low-risk entry point that demonstrates the power of automated execution by generating consistent, low-risk returns from market inefficiencies.
 
-### **02_Gold_FinOps_Pipeline** 💰 (Gold Tier)
+### **02_Psiquis_Automator** 💰 (Gold Tier)
 
 **The Financial Operations Backbone**
 
@@ -58,6 +60,15 @@ The backbone of the investment infrastructure. This pipeline ensures data integr
 - **Key Features:** Automated ETL (Extract, Transform, Load) processes, real-time P&L tracking, regulatory compliance reporting.
 - **Value Proposition:** **Operational Excellence.** Reduces overhead and ensures that high-stakes decisions are based on accurate, up-to-the-second financial data.
 
+### **03_Psiquis_Genesis_Framework** 🧬 (Platinum Tier)
+
+**The Autonomous Meta-Orchestration Layer**
+
+The crown jewel of the Psiquis architecture. Genesis is a self-correcting, self-evolving meta-agent that orchestrates a hierarchy of specialized agents. It transforms the traditional "fail-and-fix" model into a "fail-and-evolve" system.
+
+- **Key Features:** Dynamic agent generation, autonomous self-correction (runtime code patching), hierarchical task delegation.
+- **Value Proposition:** **Infinite Scalability.** An AI workforce that adapts, heals, and grows without constant human intervention, delivering unprecedented operational resilience.
+
 ---
 
 ## 🚀 Quick Start
@@ -65,7 +76,7 @@ The backbone of the investment infrastructure. This pipeline ensures data integr
 ### Prerequisites
 
 ```bash
-Python 3.8+
+Python 3.10+
 pip install -r requirements.txt
 ```
 
@@ -82,16 +93,22 @@ pip install -r requirements.txt
 
 ### Execution
 
-**Silver Level - Arbitrage Bot:**
+**Silver Level - Quant Engine:**
 ```bash
-cd 01_Silver_Arbitrage_Bot
+cd 01_Psiquis_Quant_Engine
 python main.py
 ```
 
-**Gold Level - FinOps Pipeline:**
+**Gold Level - Automator:**
 ```bash
-cd 02_Gold_FinOps_Pipeline
+cd 02_Psiquis_Automator
 python etl_pipeline.py
+```
+
+**Platinum Level - Genesis Framework:**
+```bash
+cd 03_Psiquis_Genesis_Framework
+python main.py --task "Your high-level objective"
 ```
 
 ---
@@ -128,7 +145,7 @@ python etl_pipeline.py
 
 For inquiries about implementation, customization or consulting services:
 
-- **Email:** [your-email@example.com]
+- **Email:** [orquestadrop6@gmail.com]
 - **LinkedIn:** [Your LinkedIn profile]
 - **Website:** [your-website.com]
 
