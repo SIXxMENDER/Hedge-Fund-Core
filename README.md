@@ -162,8 +162,8 @@ python main.py --simulate
 For inquiries about implementation, customization or consulting services:
 
 - **Email:** [orquestadrop6@gmail.com]
-- **LinkedIn:** [Your LinkedIn profile]
-- **Website:** [your-website.com]
+- **LinkedIn:** [www.linkedin.com/in/bruno-avendaño-5a097b388]
+  
 
 ---
 
